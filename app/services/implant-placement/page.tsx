@@ -40,8 +40,8 @@ export default function ImplantPlacementPage() {
 
       <section className="container mx-auto max-w-6xl px-4 py-16 md:py-24">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="relative aspect-square overflow-hidden rounded-[2rem] border border-primary/10 shadow-xl bg-card">
-            <Image src="/blog-rct-vs-extraction.png" alt="Implant placement" fill unoptimized className="object-cover" />
+            <div className="relative aspect-square overflow-hidden rounded-[2rem] border border-primary/10 shadow-xl bg-card">
+            <Image src="/implant-placement-hero.svg" alt="Implant placement" fill unoptimized className="object-cover" />
           </div>
           <div className="prose prose-neutral dark:prose-invert prose-lg max-w-none text-muted-foreground">
             <h2 className="text-3xl font-bold text-foreground mb-6">Predictable Surgical Outcomes</h2>

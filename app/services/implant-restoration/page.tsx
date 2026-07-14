@@ -41,7 +41,7 @@ export default function ImplantRestorationPage() {
       <section className="container mx-auto max-w-6xl px-4 py-16 md:py-24">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="relative aspect-square overflow-hidden rounded-[2rem] border border-primary/10 shadow-xl bg-card">
-            <Image src="/blog-rct-vs-extraction.png" alt="Implant restoration" fill unoptimized className="object-cover" />
+            <Image src="/implant-restoration-hero.svg" alt="Implant restoration" fill unoptimized className="object-cover" />
           </div>
           <div className="prose prose-neutral dark:prose-invert prose-lg max-w-none text-muted-foreground">
             <h2 className="text-3xl font-bold text-foreground mb-6">Beautiful, Functional Restorations</h2>
