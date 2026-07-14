@@ -5,8 +5,10 @@ export const SITE = {
   city: "St. John's",
   province: "Newfoundland and Labrador",
   postalCode: "A1A 5M9",
-  phone: "(709) 400-7474",
+  phone: "(709) 400-7474, Text:(709)-700-1300",
   email: "drmullerdentistry@gmail.com",
+  hours: "Monday to Saturday 8:00 AM – 7:30 PM, Sundays By Appoinment Only"
+    Only office in Newfoundland with 24/7 Access to Dentist via SMS/Calls for questions, concerns, emergencies",
   hours: "Monday to Saturday 8:30 AM – 7:00 PM, Sundays By Appoinment Only",
   googlePlaceId: "ChIJFS-nL7W9DEsRgUonFckNA3Y",
   mapUrl:
