@@ -7,7 +7,7 @@ export const SITE = {
   postalCode: "A1A 5M9",
   phone: "(709) 400-7474",
   email: "drmullerdentistry@gmail.com",
-  hours: "Monday to Saturday 8:00 AM – 7:30 PM, Sundays By Appoinment Only, 24/7 Access to Dr. Muller via SMS/Calls for questions, concerns, emergencies",
+  hours: "Monday to Saturday 8:00 AM – 7:00 PM, Sunday by appointment only. Only office in NL with 24/7 access to a dentist via SMS/Calls",
   googlePlaceId: "ChIJFS-nL7W9DEsRgUonFckNA3Y",
   mapUrl:
     "https://www.google.com/maps/place/?q=place_id:ChIJFS-nL7W9DEsRgUonFckNA3Y",
