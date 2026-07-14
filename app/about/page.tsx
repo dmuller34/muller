@@ -6,7 +6,7 @@ import { SITE } from "@/lib/site-config";
 
 export const metadata: Metadata = {
   title: "About Dr. Muller | Dentist St. John's Newfoundland",
-  description: `Meet Dr. David Muller, DDS – University of Toronto trained, ICOI & AAIP Fellow. With extensive training in root canal therapy and dental care in St. John's, NL. ${SITE.address}.`,
+  description: `Meet Dr. David Muller, DDS – University of Toronto trained, ICOI & AAIP Fellow. With extensive training in implants, wisdom tooth extractions, root canal therapy and dental care in St. John's, NL. ${SITE.address}.`,
   alternates: {
     canonical: "/about",
   },
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "About Dr. Muller | Dentist St. John's Newfoundland",
-    description: "Meet Dr. David Muller, DDS – University of Toronto trained, ICOI & AAIP Fellow. With extensive training in root canal therapy and dental care.",
+    description: "Meet Dr. David Muller, DDS – University of Toronto trained, ICOI & AAIP Fellow. With extensive training in root canal therapy, implants, wisdom teeth extractions, and dental care.",
     url: "https://drmullerdentistry.com/about",
     siteName: "Dr. Muller Dentistry",
     locale: "en_CA",
@@ -47,7 +47,7 @@ export default function AboutPage() {
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-muted-foreground sm:text-xl leading-relaxed text-balance">
             Proudly serving St. John&apos;s and the greater Newfoundland and
-            Labrador community with quality dental care and pain-free root canal therapy.
+            Labrador community with quality dental care, implants, wisdom tooth extractions and pain-free root canal therapy.
           </p>
         </div>
       </section>
@@ -104,10 +104,10 @@ export default function AboutPage() {
                   </h3>
                   <div className="p-6 rounded-2xl bg-background/50 border border-primary/5 space-y-4">
                     <p className="text-sm leading-relaxed">
-                      Dr. Muller has been awarded prestigious Fellowships from two of the world&apos;s leading implant organizations: the <strong className="text-foreground">ICOI</strong> and the <strong className="text-foreground">AAIP</strong>.
+                      Dr. Muller has been awarded prestigious Fellowships from two of the world&apos;s leading implant organizations: the <strong className="text-foreground">ICOI(International Congress of Oral Implantologists) </strong> and the <strong className="text-foreground">AAIP(American Academy of Implant Prosthodontics)</strong>.
                     </p>
                     <p className="text-sm leading-relaxed">
-                      He also completed international oral surgery training in Surgical Implantology and Extractions.
+                      He also completed international oral surgery training in Surgical Implantology and Extractions (including impacted wisdom teeth).
                     </p>
                   </div>
                 </div>
