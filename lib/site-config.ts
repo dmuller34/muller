@@ -6,6 +6,7 @@ export const SITE = {
   province: "Newfoundland and Labrador",
   postalCode: "A1A 5M9",
   phone: "(709) 400-7474",
+  smsPhone: "709-700-1300",
   email: "drmullerdentistry@gmail.com",
   hours: "Monday to Saturday 8:00 AM – 7:00 PM, Sunday by appointment only. Only office in NL with 24/7 access to a dentist via SMS/Calls",
   googlePlaceId: "ChIJFS-nL7W9DEsRgUonFckNA3Y",
@@ -25,6 +26,9 @@ export type ServiceSlug =
   | "extractions"
   | "crowns-bridges"
   | "dental-implants"
+  | "implant-placement"
+  | "implant-restoration"
+  | "implant-supported-dentures"
   | "cosmetic-dentistry"
   | "emergency-dental";
 
@@ -70,6 +74,21 @@ export const SERVICES: Array<{
       slug: "dental-implants",
       title: "Dental Implants",
       shortDescription: "Permanent tooth replacement that looks and feels natural.",
+    },
+    {
+      slug: "implant-placement",
+      title: "Implant Placement",
+      shortDescription: "Surgical placement of dental implants for single or multiple teeth.",
+    },
+    {
+      slug: "implant-restoration",
+      title: "Implant Restoration",
+      shortDescription: "Custom crowns and prostheses to restore implant function and aesthetics.",
+    },
+    {
+      slug: "implant-supported-dentures",
+      title: "Implant-Supported Dentures",
+      shortDescription: "Stable, implant-retained dentures for improved comfort and function.",
     },
     {
       slug: "cosmetic-dentistry",

@@ -106,6 +106,21 @@ export default function ContactPage() {
                   </div>
                 </a>
 
+                {SITE.smsPhone && (
+                  <a
+                    href={`sms:${SITE.smsPhone.replace(/\D/g, "")}`}
+                    className="group flex items-start gap-4 p-4 -ml-4 rounded-2xl hover:bg-primary/5 hover:text-foreground transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
+                  >
+                    <div className="p-3 rounded-full bg-primary/10 text-primary group-hover:scale-110 group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-300">
+                      <Phone className="size-6 shrink-0" aria-hidden />
+                    </div>
+                    <div className="pt-1">
+                      <span className="font-semibold text-foreground block mb-1">SMS</span>
+                      {SITE.smsPhone} (SMS)
+                    </div>
+                  </a>
+                )}
+
                 <a
                   href={`mailto:${SITE.email}`}
                   className="group flex items-start gap-4 p-4 -ml-4 rounded-2xl hover:bg-primary/5 hover:text-foreground transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
@@ -126,6 +141,7 @@ export default function ContactPage() {
                   <div className="pt-1">
                     <span className="font-semibold text-foreground block mb-1">Operating Hours</span>
                     {SITE.hours}
+                    <div className="mt-2 text-sm text-primary font-medium">Open Saturday</div>
                   </div>
                 </div>
               </address>

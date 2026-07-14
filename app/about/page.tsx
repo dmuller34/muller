@@ -94,6 +94,14 @@ export default function AboutPage() {
                       <span className="font-bold text-foreground block mb-1">Piret Truuvert Memorial Award</span>
                       Highest Overall Achievement in Preventive Dentistry
                     </li>
+                      <li className="p-4 rounded-2xl bg-background/50 border border-primary/5 hover:border-primary/20 transition-colors">
+                        <span className="font-bold text-foreground block mb-1">ICOI Fellowship</span>
+                        International Congress of Oral Implantologists — Fellowship in implantology and surgical implant training.
+                      </li>
+                      <li className="p-4 rounded-2xl bg-background/50 border border-primary/5 hover:border-primary/20 transition-colors">
+                        <span className="font-bold text-foreground block mb-1">AAIP Fellowship</span>
+                        American Academy of Implant Prosthodontics — Advanced prosthodontic implant training and fellowship.
+                      </li>
                   </ul>
                 </div>
 
