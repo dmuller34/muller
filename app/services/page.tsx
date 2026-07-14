@@ -79,6 +79,11 @@ export default function ServicesPage() {
               key={service.slug}
               className="group border-primary/10 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-primary/30 flex flex-col overflow-hidden bg-card/50 backdrop-blur-sm"
             >
+              {service.image && (
+                <div className="relative h-44 w-full">
+                  <Image src={service.image} alt={service.title} fill className="object-cover" unoptimized />
+                </div>
+              )}
               <CardHeader className="p-8 pb-4">
                 <div className="h-12 w-12 rounded-2xl bg-primary/10 text-primary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-500">
                   <ArrowRight className="size-6 -rotate-45" />
@@ -87,16 +92,19 @@ export default function ServicesPage() {
                   {service.title}
                 </h2>
                 <p className="mt-4 text-muted-foreground leading-relaxed">
-                  {service.shortDescription}
+                  {service.longDescription ?? service.shortDescription}
                 </p>
               </CardHeader>
               <CardContent className="mt-auto p-8 pt-0">
-                <Button asChild variant="ghost" className="gap-2 p-0 h-auto hover:bg-transparent text-primary font-semibold group/btn">
-                  <Link href={`/services/${service.slug}`}>
-                    Learn more
-                    <ArrowRight className="size-4 group-hover/btn:translate-x-1 transition-transform" />
-                  </Link>
-                </Button>
+                <div className="flex items-center justify-between gap-4">
+                  <Button asChild variant="ghost" className="gap-2 p-0 h-auto hover:bg-transparent text-primary font-semibold group/btn">
+                    <Link href={`/services/${service.slug}`}>
+                      Learn more
+                      <ArrowRight className="size-4 group-hover/btn:translate-x-1 transition-transform" />
+                    </Link>
+                  </Button>
+                  <Link href="/contact" className="text-sm font-medium text-muted-foreground">Book a consultation</Link>
+                </div>
               </CardContent>
             </Card>
           ))}

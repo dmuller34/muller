@@ -36,6 +36,8 @@ export const SERVICES: Array<{
   slug: ServiceSlug;
   title: string;
   shortDescription: string;
+  longDescription?: string;
+  image?: string;
   featured?: boolean;
 }> = [
     {
@@ -74,21 +76,33 @@ export const SERVICES: Array<{
       slug: "dental-implants",
       title: "Dental Implants",
       shortDescription: "Permanent tooth replacement that looks and feels natural.",
+      longDescription:
+        "Dental implants are the longest-lasting, most natural-feeling option for replacing missing teeth. We plan placement with 3D imaging and restore implants with custom crowns for optimal aesthetics and function.",
+      image: "/implant-placement-hero.svg",
     },
     {
       slug: "implant-placement",
       title: "Implant Placement",
       shortDescription: "Surgical placement of dental implants for single or multiple teeth.",
+      longDescription:
+        "Precision implant surgery using CBCT-guided planning to achieve predictable results and minimize recovery time.",
+      image: "/implant-placement-hero.svg",
     },
     {
       slug: "implant-restoration",
       title: "Implant Restoration",
       shortDescription: "Custom crowns and prostheses to restore implant function and aesthetics.",
+      longDescription:
+        "We craft custom abutments and prosthetic crowns to perfectly match adjacent teeth, restoring chewing function and smile aesthetics.",
+      image: "/implant-restoration-hero.svg",
     },
     {
       slug: "implant-supported-dentures",
       title: "Implant-Supported Dentures",
       shortDescription: "Stable, implant-retained dentures for improved comfort and function.",
+      longDescription:
+        "Implant-supported dentures dramatically improve retention and chewing ability compared to conventional removable dentures. We offer overdentures and fixed full-arch solutions.",
+      image: "/implant-supported-dentures-hero.svg",
     },
     {
       slug: "cosmetic-dentistry",
