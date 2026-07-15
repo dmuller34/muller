@@ -48,7 +48,7 @@ export default function ImplantSupportedDenturesPage() {
         <div className="grid gap-12 lg:grid-cols-2 items-center">
           <div className="relative aspect-square overflow-hidden rounded-[2rem] border border-primary/10 shadow-xl bg-card">
             <img
-              src="/Implant-supported-dentures.jpg"
+              src="/implant-supported-dentures.jpg"
               alt="Implant-supported dentures in a dental office"
               className="h-full w-full object-cover"
             />
