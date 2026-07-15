@@ -6,7 +6,7 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { SITE, SERVICES } from "@/lib/site-config";
 
 export default function HomePage() {
-  const otherServices = SERVICES.filter((s) => !s.featured).slice(0, 4);
+  const otherServices = SERVICES.filter((s) => s.slug !== "root-canal").slice(0, 8);
 
   return (
     <div className="flex flex-col">
