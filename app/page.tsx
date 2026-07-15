@@ -57,10 +57,10 @@ export default function HomePage() {
             <div className="max-w-2xl">
               <p className="text-sm font-semibold uppercase tracking-[0.2em] text-primary">Featured Care</p>
               <h2 className="mt-3 text-3xl font-extrabold text-foreground sm:text-4xl">
-                Implants, root canals, and modern dentistry in one place
+                Implants, sedation, root canals, and modern dentistry in one place
               </h2>
               <p className="mt-4 text-lg text-muted-foreground leading-relaxed">
-                Whether you need implant placement, implant restoration, or expert root canal therapy, our team is here to help you smile confidently again.
+                Whether you need implant placement withsedation or expert root canal therapy, our team is here to help you smile confidently again.
               </p>
             </div>
             <div className="grid gap-4 sm:grid-cols-3">
