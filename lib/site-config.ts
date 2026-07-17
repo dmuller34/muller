@@ -40,6 +40,9 @@ export type ServiceSlug =
   | "extractions"
   | "crowns-bridges"
   | "dental-implants"
+  | "dentures"
+  | "implant-supported-overdentures"
+  | "all-on-4-all-on-x"
   | "cosmetic-dentistry"
   | "emergency-dental";
 
@@ -84,7 +87,22 @@ export const SERVICES: Array<{
     {
       slug: "dental-implants",
       title: "Dental Implants",
-      shortDescription: "Permanent tooth replacement that looks and feels natural.",
+      shortDescription: "A carefully planned option for replacing one or more missing teeth.",
+    },
+    {
+      slug: "dentures",
+      title: "Dentures",
+      shortDescription: "Modern full and partial removable tooth-replacement options.",
+    },
+    {
+      slug: "implant-supported-overdentures",
+      title: "Implant-Supported Overdentures",
+      shortDescription: "Removable snap-in dentures designed for added stability and support.",
+    },
+    {
+      slug: "all-on-4-all-on-x",
+      title: "All-on-4 / All-on-X",
+      shortDescription: "A fixed full-arch implant option for suitable candidates.",
     },
     {
       slug: "cosmetic-dentistry",
@@ -103,6 +121,7 @@ export const NAV_MAIN = [
   { href: "/about", label: "About" },
   { href: "/services", label: "Services" },
   { href: "/services/root-canal", label: "Root Canal" },
+  { href: "/technology", label: "Technology" },
   { href: "/map", label: "Map & Reviews" },
   { href: "/blog", label: "Blog" },
   { href: "/book", label: "Contact" },
