@@ -27,7 +27,7 @@ export default function HomePage() {
               </p>
               <div className="mt-10 flex flex-wrap items-center justify-center lg:justify-start gap-4">
                 <Button asChild size="lg" className="gap-2 rounded-full h-12 px-8 text-base shadow-lg shadow-primary/20 transition-all hover:scale-105">
-                  <Link href="/contact">
+                  <Link href="/book">
                     Book an Appointment
                     <ArrowRight className="size-4" />
                   </Link>
@@ -138,7 +138,7 @@ export default function HomePage() {
 
               <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
                 <Button asChild size="lg" className="rounded-full px-8 shadow-lg shadow-primary/20 w-full sm:w-auto">
-                  <Link href="/contact">Book Consultation</Link>
+                  <Link href="/book">Book Consultation</Link>
                 </Button>
                 <Button asChild variant="outline" size="lg" className="rounded-full px-8 w-full sm:w-auto hover:bg-primary/5">
                   <Link href="/services/root-canal">Comprehensive Guide</Link>
@@ -297,7 +297,7 @@ export default function HomePage() {
               </p>
               <div className="mt-6 flex flex-wrap justify-center gap-4 md:justify-start">
                 <Button asChild>
-                  <Link href="/contact">Book Now</Link>
+                  <Link href="/book">Book Now</Link>
                 </Button>
                 <Button asChild variant="outline">
                   <Link href="/about">About Us</Link>

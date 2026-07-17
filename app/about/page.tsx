@@ -201,7 +201,7 @@ export default function AboutPage() {
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4 relative z-10">
             <Button asChild size="lg" className="rounded-full shadow-lg shadow-primary/20 px-8">
-              <Link href="/contact">Contact Us</Link>
+              <Link href="/book">Contact Us</Link>
             </Button>
             <Button asChild variant="outline" size="lg" className="rounded-full px-8 hover:bg-primary/5">
               <Link href="/services">View Services</Link>

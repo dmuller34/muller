@@ -362,7 +362,7 @@ export default function RootCanalPage() {
             </CardHeader>
             <CardContent>
               <Button asChild>
-                <Link href="/contact">Contact Us</Link>
+                <Link href="/book">Contact Us</Link>
               </Button>
             </CardContent>
           </Card>

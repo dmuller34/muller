@@ -13,10 +13,201 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
     {
+        slug: "root-canal-cost-st-johns",
+        title: "How Much Does a Root Canal Cost in St. John's, Newfoundland?",
+        description:
+            "Wondering what a root canal costs in St. John's? Dr. Muller breaks down what affects root canal pricing in Newfoundland, what's included, and why it's often cheaper than pulling the tooth.",
+        date: "2026-07-15",
+        author: "Dr. David Muller",
+        readTime: "6 min read",
+        image: "/root-canal-hero.png",
+        imageAlt: "Dentist reviewing a dental x-ray at a St. John's clinic",
+        tags: ["root canal", "cost", "St. John's"],
+        content: [
+            "\"How much is this going to cost?\" is one of the first questions patients ask when I tell them they need a root canal — and it's a completely fair one. Dental costs matter, and you deserve a clear answer. While I can't give you an exact number without examining your tooth, I can explain how root canal pricing works here in St. John's and what drives the difference.",
+
+            "<strong>Why There's No Single Price</strong>",
+            "The cost of a root canal depends mostly on <em>which tooth</em> needs treatment. Front teeth (incisors and canines) have a single root canal and are the most straightforward. Premolars usually have one or two canals. Molars — the big teeth at the back — can have three or four canals and take significantly more time and skill to treat. The more canals, the higher the fee.",
+
+            "<strong>What the Fee Guide Covers</strong>",
+            "Dentists in this province reference the Newfoundland and Labrador Dental Association's annual fee guide, which sets suggested fees for procedures. This keeps pricing transparent and consistent from office to office. When you come in, we'll give you a written estimate based on your specific tooth <em>before</em> we begin anything — no surprises.",
+
+            "<strong>Don't Forget the Crown</strong>",
+            "Most back teeth need a crown after a root canal to protect them from fracturing. The crown is a separate procedure with its own fee, and it's not optional for molars — a root-canal-treated tooth without a crown is at real risk of cracking. When you're comparing costs, always factor the crown in, because skipping it can cost you the whole tooth later.",
+
+            "<strong>How Insurance Helps</strong>",
+            "If you have dental insurance, root canal therapy and crowns are typically covered (often at 50–80%, depending on your plan). Our front desk will help you understand your coverage and can submit claims for you. If you don't have insurance, ask us about payment options — we never want cost to be the reason someone loses a tooth.",
+
+            "<strong>The Real Comparison: Root Canal vs. Extraction</strong>",
+            "Extraction looks cheaper on paper — pulling a tooth costs less than a root canal plus crown. But an empty space doesn't stay simple. To avoid the neighbouring teeth shifting, you'll eventually want to replace the tooth, and a dental implant in Canada often runs $3,000–$5,000 or more. Over your lifetime, saving the natural tooth with a root canal is almost always the more economical choice.",
+
+            "<strong>Get an Exact Quote</strong>",
+            "The honest answer to \"what will my root canal cost?\" is: let us look at the tooth and we'll tell you precisely, in writing, before you commit to anything. Call our St. John's office at (709) 400-7474 to book an assessment.",
+        ],
+    },
+    {
+        slug: "emergency-root-canal-st-johns",
+        title: "Emergency Root Canal in St. John's: Same-Day Relief for Severe Tooth Pain",
+        description:
+            "Severe toothache or a dental abscess in St. John's? Dr. Muller explains when tooth pain is an emergency, what to do right now, and how our Newfoundland practice provides fast root canal relief.",
+        date: "2026-07-08",
+        author: "Dr. David Muller",
+        readTime: "5 min read",
+        image: "/emergency-dental-hero.png",
+        imageAlt: "Person holding their jaw in pain, needing emergency dental care",
+        tags: ["root canal", "emergency", "St. John's"],
+        content: [
+            "Severe tooth pain has a way of taking over your entire day — and night. When the nerve inside a tooth becomes infected or inflamed, the pain can be relentless. In many of these cases, an emergency root canal is what finally brings relief. If you're in St. John's and hurting right now, here's what you need to know.",
+
+            "<strong>Signs Your Toothache Is an Emergency</strong>",
+            "Call us right away if you have any of these:",
+            "• <strong>Throbbing pain</strong> that won't stop, especially at night or when lying down<br/>• <strong>Swelling</strong> in your face, jaw, or gums<br/>• A <strong>pimple-like bump</strong> on the gum (a sign of an abscess)<br/>• Pain so severe that <strong>over-the-counter painkillers aren't touching it</strong><br/>• A <strong>bad taste</strong> or discharge near a sore tooth",
+
+            "<strong>Why You Shouldn't Wait</strong>",
+            "A dental infection doesn't resolve on its own. Left untreated, an abscess can spread into the jaw and surrounding tissues and become a serious medical problem. The earlier we treat it, the more comfortable the process — and the better the chance of saving the tooth. Waiting almost never makes it cheaper or easier.",
+
+            "<strong>What to Do Before You Reach Us</strong>",
+            "While you arrange to be seen: take ibuprofen or acetaminophen as directed on the package, rinse gently with warm salt water, and apply a cold compress to the outside of your cheek for swelling. Avoid very hot, cold, or hard foods on that side. Don't place an aspirin directly on the gum — it can burn the tissue.",
+
+            "<strong>How We Help — Fast</strong>",
+            "Root canals are a core focus of our practice, and we do our best to see urgent cases the same day. As the only office in Newfoundland offering 24/7 access to a dentist by call or text, we're here when a tooth flares up outside normal hours. In one comfortable appointment, we can remove the infected tissue, relieve the pressure, and stop the pain at its source.",
+
+            "<strong>Don't Tough It Out</strong>",
+            "If you're dealing with the kind of pain described above, please don't wait for it to \"settle down.\" Call us at (709) 400-7474 or text (709) 700-1300 and we'll get you seen as quickly as possible.",
+        ],
+    },
+    {
+        slug: "root-canal-dentist-st-johns",
+        title: "Looking for a Root Canal Dentist in St. John's? Here's What to Look For",
+        description:
+            "Choosing where to get your root canal matters. Dr. Muller explains what makes for a comfortable, high-quality root canal — and why patients across St. John's and Newfoundland choose our practice.",
+        date: "2026-06-24",
+        author: "Dr. David Muller",
+        readTime: "5 min read",
+        image: "/dr-muller.png",
+        imageAlt: "Dr. David Muller at his St. John's dental practice",
+        tags: ["root canal", "St. John's", "choosing a dentist"],
+        content: [
+            "Not all root canals — or the people who perform them — are the same. If you've been told you need one and you're searching for the right dentist in St. John's, it's worth knowing what actually makes for a good experience and a lasting result. Here's what I'd tell a friend to look for.",
+
+            "<strong>1. Root Canals Are a Real Focus, Not an Afterthought</strong>",
+            "Experience matters enormously with root canal therapy. A dentist who treats these regularly develops a feel for the anatomy, the tricky canals, and the small details that separate a tooth that lasts 30 years from one that fails. Root canal treatment is a cornerstone of what we do here, and that repetition shows in the results.",
+
+            "<strong>2. They Take Comfort Seriously</strong>",
+            "The old reputation of painful root canals comes from outdated technique. A good modern practice uses topical numbing before injections, gets you fully frozen before starting, and checks in with you throughout. If a dentist dismisses your anxiety instead of working with it, keep looking.",
+
+            "<strong>3. Efficient, Often Single-Visit Treatment</strong>",
+            "Most root canals should be completed in one 60–90 minute visit. Fewer trips means less time off work and less disruption — important when you're travelling in from around the Avalon or farther across Newfoundland.",
+
+            "<strong>4. Honest Recommendations</strong>",
+            "The right dentist will tell you when a tooth <em>can</em> be saved — and will be equally honest when it can't. You want someone who recommends what's best for your long-term health, not the most expensive option on the menu.",
+
+            "<strong>5. Convenient and Accessible</strong>",
+            "We're located on Stavanger Drive in St. John's, we welcome new patients from Mount Pearl, Paradise, and across the province, and we offer 24/7 access to a dentist by call or text for questions and emergencies. When a tooth is bothering you, being able to reach someone matters.",
+
+            "<strong>Come See the Difference</strong>",
+            "If you need a root canal and want it done right — comfortably, thoroughly, and honestly — we'd be glad to help. Call (709) 400-7474 or book online, and let's take a look at your tooth together.",
+        ],
+    },
+    {
+        slug: "how-long-does-a-root-canal-last",
+        title: "How Long Does a Root Canal Last? Success Rates Explained",
+        description:
+            "Will your root canal last a lifetime? Dr. Muller explains root canal success rates, what makes treated teeth fail, and how St. John's patients can protect their tooth for decades.",
+        date: "2026-06-10",
+        author: "Dr. David Muller",
+        readTime: "5 min read",
+        image: "/blog-aftercare.png",
+        imageAlt: "Person smiling confidently after successful dental treatment",
+        tags: ["root canal", "success rate", "longevity"],
+        content: [
+            "When patients agree to a root canal, they're making an investment in saving their natural tooth — so it's only natural to ask: <em>how long will it actually last?</em> The encouraging answer is that a well-treated, properly protected tooth can last the rest of your life.",
+
+            "<strong>The Numbers Are on Your Side</strong>",
+            "Root canal therapy has a success rate above 95%, making it one of the most predictable procedures in all of dentistry. Studies following treated teeth over many years consistently show that the large majority function well for a decade or more, and a great many last a lifetime.",
+
+            "<strong>The Single Biggest Factor: The Crown</strong>",
+            "If there's one thing that determines how long your root canal lasts, it's whether the tooth gets a proper crown afterward (for back teeth especially). A root-canal-treated tooth becomes more brittle, and without a crown it can fracture under normal chewing. I've watched patients lose teeth they spent good money saving, simply because they delayed the crown. Don't skip it.",
+
+            "<strong>What Causes a Root Canal to Fail</strong>",
+            "Failures are uncommon, but when they happen it's usually due to one of these: a delayed or missing crown, a new cavity forming at the base of the tooth, a crack developing over time, or a canal with unusual anatomy that harboured hidden bacteria. Good home care and regular checkups catch most of these early.",
+
+            "<strong>If It Ever Does Fail</strong>",
+            "A treated tooth that develops trouble years later isn't necessarily lost. Often we can perform a retreatment — reopening the tooth, re-cleaning the canals, and resealing it. This saves many teeth that would otherwise need extraction.",
+
+            "<strong>How to Get Decades Out of Your Tooth</strong>",
+            "Protect your investment: get the crown promptly, brush and floss daily, don't use the tooth to bite ice or open packages, wear a nightguard if you grind, and keep your six-month cleanings so we can monitor it. Do that, and there's every reason to expect your treated tooth to serve you for the long haul. Questions about a tooth you've had treated? Call us at (709) 400-7474.",
+        ],
+    },
+    {
+        slug: "dental-implant-cost-st-johns",
+        title: "How Much Do Dental Implants Cost in St. John's, Newfoundland?",
+        description:
+            "Considering dental implants in St. John's? Dr. Muller explains what affects implant cost in Newfoundland, what's included in the price, and how implants compare to bridges and dentures over time.",
+        date: "2026-05-20",
+        author: "Dr. David Muller",
+        readTime: "6 min read",
+        image: "/blog-rct-vs-extraction.png",
+        imageAlt: "Dental implant model shown next to a natural tooth",
+        tags: ["dental implants", "cost", "St. John's"],
+        content: [
+            "Dental implants are the gold standard for replacing a missing tooth — they look, feel, and function like the real thing. But they're also a bigger investment than other options, and patients rightly want to understand the cost before deciding. Here's an honest look at what goes into implant pricing here in St. John's.",
+
+            "<strong>An Implant Is Really Three Parts</strong>",
+            "When people picture an implant, they usually think of the whole tooth. In reality, a single implant restoration has three components: the <strong>implant post</strong> (a titanium screw placed in the jawbone), the <strong>abutment</strong> (the connector), and the <strong>crown</strong> (the visible tooth on top). Each is a distinct step, which is part of why implants cost more than a simple filling or extraction.",
+
+            "<strong>What Affects the Price</strong>",
+            "Several things influence the final cost:",
+            "• <strong>How many teeth</strong> you're replacing<br/>• Whether you need a <strong>bone graft</strong> first (common if the tooth has been missing a while and the bone has shrunk)<br/>• Whether an <strong>extraction</strong> is needed before placement<br/>• The type of crown and materials used",
+
+            "<strong>Why It's Worth It Long-Term</strong>",
+            "A bridge or denture is cheaper up front, but implants offer something the others can't: they replace the tooth <em>root</em>, which preserves the jawbone and stops it from deteriorating over time. Implants also don't require grinding down the healthy neighbouring teeth the way a traditional bridge does. Cared for well, an implant can last decades — often a lifetime — which changes the cost picture considerably.",
+
+            "<strong>Insurance and Payment</strong>",
+            "Coverage for implants varies widely between plans — some contribute toward the crown portion, others toward the surgery. Our team will review your benefits with you and go over payment options so you can plan with confidence.",
+
+            "<strong>Get a Personalized Estimate</strong>",
+            "Because every case is different, the only way to know your true cost is a consultation and a look at your jawbone with imaging. We'll lay out your options and give you a clear, written estimate. Call our St. John's office at (709) 400-7474 to book.",
+        ],
+    },
+    {
+        slug: "dental-implants-vs-dentures-bridge",
+        title: "Dental Implants vs. Dentures vs. Bridges: Which Is Right for You?",
+        description:
+            "Replacing a missing tooth in St. John's? Dr. Muller compares dental implants, bridges, and dentures — the pros, cons, longevity, and cost — to help you choose the right option.",
+        date: "2026-05-06",
+        author: "Dr. David Muller",
+        readTime: "6 min read",
+        image: "/services-hero.png",
+        imageAlt: "Comparison of tooth replacement options at a dental office",
+        tags: ["dental implants", "dentures", "bridges", "comparison"],
+        content: [
+            "Losing a tooth — or several — raises an important question: what's the best way to replace it? At our St. John's practice, patients generally choose between three options: dental implants, a bridge, or dentures. Each has its place, and the right answer depends on your mouth, your priorities, and your budget.",
+
+            "<strong>Dental Implants: The Gold Standard</strong>",
+            "An implant replaces both the root and the crown of the missing tooth with a titanium post and a custom crown. It's the closest thing to getting your natural tooth back.",
+            "• <strong>Pros:</strong> looks and feels natural, preserves jawbone, doesn't affect neighbouring teeth, can last a lifetime<br/>• <strong>Cons:</strong> highest up-front cost, requires minor surgery and healing time",
+
+            "<strong>Bridges: A Fixed Middle Ground</strong>",
+            "A bridge fills the gap by anchoring a false tooth to the teeth on either side.",
+            "• <strong>Pros:</strong> fixed in place (not removable), faster than implants, no surgery<br/>• <strong>Cons:</strong> requires grinding down the healthy neighbouring teeth, doesn't preserve the bone under the gap, typically needs replacing after 10–15 years",
+
+            "<strong>Dentures: The Most Affordable</strong>",
+            "Dentures are removable replacements for several or all teeth.",
+            "• <strong>Pros:</strong> lowest cost, non-surgical, can replace many teeth at once<br/>• <strong>Cons:</strong> removable, can feel less stable, don't stop bone loss, may need periodic relining",
+
+            "<strong>How I Help Patients Choose</strong>",
+            "If preserving long-term bone and function is the priority and the budget allows, implants are usually the best investment. If you need something fixed but less invasive, a bridge can be a good fit. If you're replacing many teeth or cost is the main concern, modern dentures — sometimes stabilized by a couple of implants — can work well. There's no one-size-fits-all answer.",
+
+            "<strong>Let's Talk Through It</strong>",
+            "The best way to decide is a conversation and an exam. We'll walk you through what each option would look like for your specific situation, honestly and without pressure. Call us at (709) 400-7474 or book online to get started.",
+        ],
+    },
+    {
         slug: "root-canal-myths-vs-facts",
         title: "Root Canal Myths vs. Facts: What You Actually Need to Know",
         description:
-            "There's a lot of misinformation about root canals. Dr. Muller separates fact from fiction so you can make an informed decision about your dental care.",
+            "There's a lot of misinformation about root canals. Dr. Muller, a root canal dentist in St. John's, separates fact from fiction so you can make an informed decision about your dental care.",
         date: "2026-02-18",
         author: "Dr. David Muller",
         readTime: "5 min read",
@@ -49,7 +240,7 @@ export const BLOG_POSTS: BlogPost[] = [
         slug: "can-root-canal-save-cracked-tooth",
         title: "Can a Root Canal Save a Cracked Tooth?",
         description:
-            "Cracked your tooth and wondering if it can be saved? Dr. Muller explains when a root canal can rescue a cracked tooth and when extraction is necessary.",
+            "Cracked your tooth in St. John's and wondering if it can be saved? Dr. Muller explains when a root canal can rescue a cracked tooth and when extraction is necessary.",
         date: "2026-02-10",
         author: "Dr. David Muller",
         readTime: "5 min read",
@@ -126,7 +317,7 @@ export const BLOG_POSTS: BlogPost[] = [
         slug: "root-canal-aftercare-tips-for-recovery",
         title: "Root Canal Aftercare: Tips for a Smooth Recovery",
         description:
-            "Just had a root canal? Dr. Muller shares practical aftercare tips to ensure a smooth, quick recovery and protect your treated tooth for the long term.",
+            "Just had a root canal in St. John's? Dr. Muller shares practical aftercare tips to ensure a smooth, quick recovery and protect your treated tooth for the long term.",
         date: "2026-01-20",
         author: "Dr. David Muller",
         readTime: "4 min read",
@@ -204,7 +395,7 @@ export const BLOG_POSTS: BlogPost[] = [
         slug: "root-canal-vs-extraction-which-is-right",
         title: "Root Canal vs. Tooth Extraction: Which Is Right for You?",
         description:
-            "Should you save the tooth or pull it? Dr. Muller compares root canal therapy and tooth extraction to help you make the best decision for your smile and long-term oral health.",
+            "Should you save the tooth or pull it? Dr. Muller, a root canal dentist in St. John's, compares root canal therapy and tooth extraction to help you make the best decision for your smile and long-term oral health.",
         date: "2025-10-04",
         author: "Dr. David Muller",
         readTime: "6 min read",
@@ -238,7 +429,7 @@ export const BLOG_POSTS: BlogPost[] = [
         slug: "5-signs-you-might-need-a-root-canal",
         title: "5 Signs You Might Need a Root Canal",
         description:
-            "Not sure if you need a root canal? Dr. Muller explains the five most common warning signs that indicate you may need root canal therapy — and why acting early matters.",
+            "Not sure if you need a root canal? Dr. Muller, a root canal dentist in St. John's, explains the five most common warning signs that indicate you may need root canal therapy — and why acting early matters.",
         date: "2025-08-12",
         author: "Dr. David Muller",
         readTime: "5 min read",

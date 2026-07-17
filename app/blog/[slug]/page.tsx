@@ -211,7 +211,7 @@ export default async function BlogPostPage({ params }: Props) {
                             size="lg"
                             className="rounded-full shadow-lg shadow-primary/20 px-8"
                         >
-                            <Link href="/contact">Book Appointment</Link>
+                            <Link href="/book">Book Appointment</Link>
                         </Button>
                         <Button
                             asChild

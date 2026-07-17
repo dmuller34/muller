@@ -47,6 +47,18 @@ const nextConfig: NextConfig = {
 
   // Trailing slash consistency (helps canonical SEO)
   trailingSlash: false,
+
+  // The old /contact page was merged into /book. Redirect permanently so any
+  // existing links and search-engine results still land in the right place.
+  async redirects() {
+    return [
+      {
+        source: "/contact",
+        destination: "/book",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

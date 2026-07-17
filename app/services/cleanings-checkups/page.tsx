@@ -199,7 +199,7 @@ export default function ServicePage() {
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4 relative z-10">
             <Button asChild size="lg" className="rounded-full shadow-lg shadow-primary/20 px-8">
-              <Link href="/contact">Contact Us</Link>
+              <Link href="/book">Contact Us</Link>
             </Button>
           </div>
         </div>

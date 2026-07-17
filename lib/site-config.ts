@@ -105,5 +105,5 @@ export const NAV_MAIN = [
   { href: "/services/root-canal", label: "Root Canal" },
   { href: "/map", label: "Map & Reviews" },
   { href: "/blog", label: "Blog" },
-  { href: "/contact", label: "Contact" },
+  { href: "/book", label: "Contact" },
 ] as const;

@@ -135,7 +135,7 @@ export default function EmergencyDentalPage() {
               size="lg"
               className="rounded-full px-8 h-14 border-red-200 hover:bg-red-50 dark:border-red-900 dark:hover:bg-red-950/50"
             >
-              <Link href="/contact">Location & Hours</Link>
+              <Link href="/book">Location & Hours</Link>
             </Button>
           </div>
         </div>
@@ -506,7 +506,7 @@ export default function EmergencyDentalPage() {
               </a>
             </Button>
             <Button asChild variant="outline" size="lg" className="rounded-full px-8 h-14">
-              <Link href="/contact">Get Directions</Link>
+              <Link href="/book">Get Directions</Link>
             </Button>
           </div>
         </div>

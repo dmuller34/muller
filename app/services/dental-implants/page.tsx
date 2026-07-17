@@ -164,7 +164,7 @@ export default function DentalImplantsPage() {
           </p>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
             <Button asChild size="lg" className="rounded-full shadow-lg shadow-primary/20 px-8 h-12">
-              <Link href="/contact">Book a Consultation</Link>
+              <Link href="/book">Book a Consultation</Link>
             </Button>
           </div>
         </div>
@@ -268,7 +268,7 @@ export default function DentalImplantsPage() {
                 Though the upfront cost is higher, implants are often more economical over a lifetime because they don't require cyclical replacement.
               </p>
               <Button asChild size="sm" className="rounded-full">
-                <Link href="/contact">Ask About Pricing</Link>
+                <Link href="/book">Ask About Pricing</Link>
               </Button>
             </div>
           </div>
@@ -439,7 +439,7 @@ export default function DentalImplantsPage() {
               </a>
             </Button>
             <Button asChild variant="outline" size="lg" className="rounded-full px-8 h-14">
-              <Link href="/contact">Location & Hours</Link>
+              <Link href="/book">Location & Hours</Link>
             </Button>
           </div>
         </div>

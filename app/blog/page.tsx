@@ -162,7 +162,7 @@ export default function BlogPage() {
                         size="lg"
                         className="rounded-full px-8 shadow-lg shadow-primary/20"
                     >
-                        <Link href="/contact">Ask Dr. Muller</Link>
+                        <Link href="/book">Ask Dr. Muller</Link>
                     </Button>
                 </div>
             </section>
