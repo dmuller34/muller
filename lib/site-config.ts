@@ -7,9 +7,8 @@ export const SITE = {
   postalCode: "A1A 5M9",
   phone: "(709) 400-7474, Text:(709)-700-1300",
   email: "drmullerdentistry@gmail.com",
-  hours: "Monday to Saturday 8:00 AM – 7:30 PM, Sundays By Appoinment Only"
-    Only office in Newfoundland with 24/7 Access to Dentist via SMS/Calls for questions, concerns, emergencies",
-  hours: "Monday to Saturday 8:30 AM – 7:00 PM, Sundays By Appoinment Only",
+  hours:
+    "Monday to Saturday 8:30 AM – 7:00 PM, Sundays By Appointment Only. Only office in Newfoundland with 24/7 access to a dentist via SMS/calls for questions, concerns, and emergencies.",
   googlePlaceId: "ChIJFS-nL7W9DEsRgUonFckNA3Y",
   mapUrl:
     "https://www.google.com/maps/place/?q=place_id:ChIJFS-nL7W9DEsRgUonFckNA3Y",
@@ -25,7 +24,7 @@ export type ServiceSlug =
   | "cleanings-checkups"
   | "fillings"
   | "extractions"
-  | "crowns-bridges-dentures"
+  | "crowns-bridges"
   | "dental-implants"
   | "cosmetic-dentistry"
   | "emergency-dental";
